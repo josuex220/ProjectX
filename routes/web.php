@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsletterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,5 @@ use App\Http\Controllers\IndexController;
 
 
 Route::get('/', [IndexController::class,'index']);
+Route::post('/contact', [ContactController::class,'index']);
+Route::post('/newsletter', [NewsletterController::class,'index']);

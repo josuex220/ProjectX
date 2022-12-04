@@ -1614,7 +1614,7 @@ section {
   height: 100%;
 }
 
-.contact .php-email-form .error-message {
+ .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1624,7 +1624,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+ .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1634,7 +1634,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+ .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1642,7 +1642,7 @@ section {
   margin-bottom: 24px;
 }
 
-.contact .php-email-form .loading:before {
+ .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -2241,7 +2241,7 @@ section {
   color: #012970;
 }
 
-.footer .footer-newsletter form {
+.footer .footer-newsletter form .form-footer{
   margin-top: 20px;
   background: #fff;
   padding: 6px 10px;
@@ -2250,13 +2250,13 @@ section {
   border: 1px solid #e1ecff;
 }
 
-.footer .footer-newsletter form input[type=email] {
+.footer .footer-newsletter form .form-footer input[type=email] {
   border: 0;
   padding: 8px;
   width: calc(100% - 140px);
 }
 
-.footer .footer-newsletter form input[type=submit] {
+.footer .footer-newsletter form .form-footer input[type=submit] {
   position: absolute;
   top: 0;
   right: 0;
@@ -2272,7 +2272,7 @@ section {
   border-radius: 4px;
 }
 
-.footer .footer-newsletter form input[type=submit]:hover {
+.footer .footer-newsletter form .form-footer input[type=submit]:hover {
   background: #5969f3;
 }
 
